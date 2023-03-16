@@ -1,0 +1,32 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "docker": "^1.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/telzee/internship/express-mongo.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/telzee/internship/express-mongo/issues"
+  },
+  "homepage": "https://gitlab.com/telzee/internship/express-mongo#readme",
+  "description": ""
+}
